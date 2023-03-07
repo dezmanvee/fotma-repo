@@ -135,6 +135,9 @@ header .mobile ul li {
     position: relative;
     margin-bottom: 4rem;
     top: 5.3125rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .description {
