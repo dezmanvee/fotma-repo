@@ -98,35 +98,6 @@ header .mobile ul li {
 
 }
 
-@media only screen and (min-width: 761px) {
-    .primary-nav ul li .btn {
-        display: none;
-    }
-    .primary-nav ul li:last-child {
-        width: 0;
-    }
-
-    header .mobile {
-
-        display: none;
-    }
-
-}
-
-@media only screen and (max-width: 760px) {
-
-    header .logo,
-    header .primary-nav {
-
-        display: none;
-    }
-
-
-    
-}
-
-
-
 
 .banner {
     width: 100%;
@@ -141,19 +112,22 @@ header .mobile ul li {
 }
 
 .description {
-    color: whitesmoke;
-    background-color: #9dc20a;
-    width: 40%;
-    height: 55%;
-    text-align: center;
-    padding: 2em;
-    line-height: 1.4;
-    margin: auto;
-    border-radius: 4px;
+    border-radius: 10px;
     position: absolute;
     left: 100px;
     top: 170px;
+    
 
+}
+
+.description-inner-ctn {
+    color: whitesmoke;
+    background-color: #9dc20a;
+    width: 42rem;
+    text-align: center;
+    line-height: 1.4;
+    margin: auto;
+    padding: 2em 0;
 }
 
 .description h2 {
@@ -187,59 +161,6 @@ header .mobile ul li {
     margin-bottom: 0.75em;
     border-radius: 4px;
     font-weight: 500;
-}
-
-@media only screen and (max-width: 761px) {
-    nav {
-        width: 80%;
-    }
-
-    .description {
-        background-color: transparent;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        width: 100%;
-
-    }
-
-    .description p,
-    .description input {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1299px) {
-
-    .description h2 {
-        margin-bottom: 0.225em;
-    }
-
-    .description h1 {
-        margin-bottom: 0.25em;
-        font-size: 2.5em;
-    
-    }
-
-    .description p {
-        font-size: 1.12em;
-        line-height: 1.1;
-        margin-bottom: 1.225em;
-    }
-
-
-    .description input {
-        padding: 0.5em;
-        width: 70%;
-        height: 15%;
-        color: whitesmoke;
-        border: none;
-        font-size: 1.1em;
-        margin-bottom: 0.45em;
-        border-radius: 4px;
-    }
-
 }
 
 .parent-about {
@@ -366,3 +287,93 @@ footer {
     align-items: center;
     color: white; 
 }
+
+/* media query for large screen sizes */
+
+@media only screen and (min-width: 956px) {
+
+    .primary-nav ul li .btn {
+        display: none;
+    }
+    .primary-nav ul li:last-child {
+        width: 0;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    
+
+    header .mobile {
+
+        display: none;
+    }
+
+}
+
+ /* media query for small screen sizes */
+
+ @media only screen and (max-width: 650px) {
+
+    header .logo,
+    header .primary-nav {
+        display:  none;
+    }
+
+    header {
+
+        height: 3.5rem; 
+    }
+
+    .banner {
+
+        top: 3.5rem; /* offset from top */
+    }
+
+    .parent-about {
+        flex-direction: column;
+    }
+
+    .about {
+        width: 98%;
+        margin-bottom: 1rem;
+
+    }
+ }
+
+ /* For medium and small screens */
+ 
+ @media only screen and (max-width: 955px) {
+ 
+     .description-inner-ctn p,
+     .description-inner-ctn input{
+ 
+         display: none;
+     }
+ 
+     .description-inner-ctn {
+         background-color: transparent;
+     }
+ 
+     header .primary-nav {
+         min-width: 80%;
+     }
+
+     .description {
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+
+     .description-inner-ctn {
+        width: 100%;
+     }
+
+     .banner {
+        justify-content: center;
+        align-items: center;
+     }
+ 
+
+     
+  }
