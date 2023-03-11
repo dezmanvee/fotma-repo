@@ -1,5 +1,6 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Mono&family=Roboto:wght@300;400;500&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Damion&family=Italianno&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 
 * {
     margin: 0;
@@ -128,11 +129,13 @@ header .mobile ul li {
     line-height: 1.4;
     margin: auto;
     padding: 2em 0;
+    border-radius: 5px;
 }
 
 .description h2 {
     margin-bottom: 0.625em;
-    font-family: cursive;
+    font-family: 'Damion', cursive;
+    font-size: 3rem;
 }
 
 .description h1 {
@@ -338,6 +341,50 @@ footer {
         margin-bottom: 1rem;
 
     }
+
+    .about figcaption h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .about-bottom {
+        margin-top: 1.5rem;
+        padding: 2rem 1%;
+    }
+
+    .about-bottom h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .about-bottom p {
+        margin-bottom: 3.5rem;
+    }
+
+    .container figure:last-child {
+
+        display: none;
+    }
+
+    .about-bottom .container .image-ctn {
+        width: 33.33%;
+    
+    }
+
+    aside {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside p {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    aside figure {
+        width: 10%;
+    }
+
  }
 
  /* For medium and small screens */
@@ -374,6 +421,30 @@ footer {
         align-items: center;
      }
  
+@media only screen and (min-width: 761px) and (max-width: 880px) {
 
+    
+
+}
+
+@media only screen and (max-width: 955px) {
+
+    .description-inner-ctn p,
+    .description-inner-ctn input{
+
+        display: none;
+    }
+
+    .description-inner-ctn {
+        background-color: transparent;
+    }
+
+    header .primary-nav {
+        min-width: 80%;
+    }
+
+
+    
+ }
      
   }
