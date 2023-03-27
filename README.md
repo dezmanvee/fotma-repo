@@ -25,8 +25,8 @@ This landing page is designed to provide a simple, clean, and modern user experi
 
 ## Installations
 
-1. Clone the repository: `: git clone https://github.com/username/fotma-repo`
-2. Open the `index.html file` in a web browser to view the landing page.
+1. Clone the repository: `git clone https://github.com/username/fotma-repo`
+2. Open the `index.html` file in a web browser to view the landing page.
 
 ## Usage
 
@@ -34,7 +34,13 @@ To customize the landing page, simply edit the HTML and CSS files in a code edit
 
 ## Customizing the Hero Section
 
-TO customize the hero section, edit the following files and/ folder:
+To customize the hero section, edit the following files and/ folder:
 - `index.html`: Change the text and link for the call to action button.
 - `style.css`: Change the styles for the hero section
 - `images`: Change the background image for the hero section
+
+## Customizing the Feature Section
+
+To customize the hero section, edit the following files folder:
+- `index.html`: Change the text and icon for each feature.
+- `style.css`: Change the style for each feature.
