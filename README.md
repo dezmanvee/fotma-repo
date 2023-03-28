@@ -44,3 +44,7 @@ To customize the hero section, edit the following files and/ folder:
 To customize the hero section, edit the following files folder:
 - `index.html`: Change the text and icon for each feature.
 - `style.css`: Change the style for each feature.
+
+## Contributing
+
+Contributions are welcome! To contribute, please follow these steps:
