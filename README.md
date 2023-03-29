@@ -48,3 +48,9 @@ To customize the hero section, edit the following files folder:
 ## Contributing
 
 Contributions are welcome! To contribute, please follow these steps:
+
+1.	Fork the repository
+2.	Create a new branch: `git checkout -b my-branch`
+3.	Make your changes and commit them: `git commit -m "my changes"`
+4.	Push to the branch: `git push origin my-branch`
+5.	Create a pull request
