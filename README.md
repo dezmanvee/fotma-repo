@@ -9,7 +9,6 @@ This is a simple static landing page built with HTML & CSS.
 - **Installation**
 - **Usage**
 - **Contributing**
-- **License**
 
 ## Introduction
 
